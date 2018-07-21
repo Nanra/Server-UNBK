@@ -49,6 +49,8 @@
                         </ul>
                     </div>
                 </li>
+                <!-- For Admin Only -->
+                <?php include "menuPengawas.php"; ?>
         </ul>
         <div class="footer">
             <p class="copyright">SISDIG UNIKOM ©</p>

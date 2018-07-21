@@ -82,7 +82,7 @@ if ( !isset($_SESSION['user']) ) {
                                 <tr>
                                     <td>#255</td>
                                     <td>Fitrah Arsalan</td>
-                                    <td><?php echo date("d - m - Y");?></td>
+                                    <td><?php echo date("d- m - Y");?></td>
                                     <!-- <td><span class="pie">3/8</span></td> -->
                                     <td>Bahasa Indonesia</td>
                                 </tr>

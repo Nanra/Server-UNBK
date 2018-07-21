@@ -1,17 +1,4 @@
-<?php
-require_once "core/init.php";
-if (!isset($_SESSION['user']) ) {
-    //Untuk me-Redirect ke halaman yang dituju
-    header('Location: login.php');
-}
-if (isset($_SESSION['user'])){
-  if ($_SESSION['user'] != 'Administrator'){
-    echo "Bukan Admin";
-  } else {
-    echo "Anda Admin Ya";
-  }
-}
-?>
+<?php include "cekAdmin.php"; ?>
 <?php require_once "view/header.php"; ?>
 <?php require_once "view/navbar.php"; ?>
 <div class="row"></div>
