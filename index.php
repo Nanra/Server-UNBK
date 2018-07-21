@@ -1,10 +1,4 @@
-<?php
-require_once "core/init.php";
-if ( !isset($_SESSION['user']) ) {
-    //Untuk me-Redirect ke halaman yang dituju
-    header('Location: login.php');
-}
-?>
+<?php require_once "cekSession.php"; ?>
 <?php require_once "view/header.php"; ?>
 <?php require_once "view/navbar.php"; ?>
 <?php require_once "view/sidebar.php"; ?>
