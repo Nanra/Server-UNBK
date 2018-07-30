@@ -1,6 +1,6 @@
 <?php include "cekAdmin.php"; ?>
 <?php require_once "view/header.php"; ?>
-<?php require_once "view/navbar.php"; ?>
+<?php require_once "view/navbarChild.php"; ?>
 <div class="row"></div>
 <div class="text-lighten-5 container">
     <h4> Silahkan Isi Data Dengan Benar</h4>
@@ -79,69 +79,18 @@ if( isset($_POST['submit']) ){
                     <label for="email" data-error="Penulisan Email Salah !!">Email</label>
                 </div>
                 <div class="input-field col s12 l6 m6">
-                    <input id="hp" type="tel" name="hp" class="validate" required>
-                    <label for="lblhp">Nomor HP</label>
+                    <input id="hp" type="number" min="0" name="hp" class="validate" required>
+                    <label for="lblhp" data-error="Masukkan Nomor Telephone">Nomor HP</label>
                 </div>
             </div>
             <div class="row">
-                <button class="btn" type="submit" name="submit">DAFTAR<i class="material-icons right">send</i></button>
+              <div class="col">
+                <button class="btn" type="submit" name="submit">DAFTAR<i class="material-icons right">people</i></button>
+              </div>
             </div>
         </form>
     </div>
 </div>
 <!-- Tutup Form -->
-
-<!-- MODAL DAFTAR GAGAL -->
-<div id="modal1" class="modal">
-    <div class="modal-content">
-        <h5>MAAF, NIM SUDAH TERDAFTAR !!!</h5>
-        <div class="divider"></div>
-        <p>Mohon Pastikan NIM Yang Anda Masukkan Belum Terdaftar Sebelumnya.</p>
-    </div>
-    <div class="modal-footer">
-        <a href="daftar.php" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-    </div>
-</div>
-
-
-<!-- MODAL FORM TIDAK BOLEH KOSONG -->
-<div id="modal2" class="modal">
-    <div class="modal-content">
-        <h5>MAAF, FORM TIDAK BOLEH KOSONG !!!</h5>
-        <div class="divider"></div>
-        <p>Mohon Pastikan Semua Form Sudah Terisi Dengan Benar.</p>
-    </div>
-    <div class="modal-footer">
-        <a href="daftar.php" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-    </div>
-</div>
-
-
-<!-- MODAL DAFTAR BERHASIL -->
-<div id="modal3" class="modal">
-    <div class="modal-content">
-        <h5>SUKSES !!!</h5>
-        <div class="divider"></div>
-        <p>Selamat Akun Anda Berhasil Dibuat.</p>
-        <p>Selanjutnya Silahkan Login Untuk Mendownload Jurnal TA !</p>
-    </div>
-    <div class="modal-footer">
-        <a href="login.php" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-    </div>
-</div>
-
-
-<!-- MODAL DAFTAR BERHASIL -->
-<div id="modal4" class="modal">
-    <div class="modal-content">
-        <h5>Peringatan !!!</h5>
-        <div class="divider"></div>
-        <p>Terdapat Kesalahan Dalam Database, Silahkan Hubungi Administrator Anda !</p>
-    </div>
-    <div class="modal-footer">
-        <a href="daftar.php" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
-    </div>
-</div>
-
 
 <?php require_once "view/footer.php" ?>

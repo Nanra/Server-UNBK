@@ -25,7 +25,7 @@
                 <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">apps</i>Data Siswa<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
                 <div class="collapsible-body">
                     <ul>
-                        <li><a href="mailbox.html">Peserta Ujian</a></li>
+                        <li><a href="#">Peserta Ujian</a></li>
                         <!-- <li><a href="search.html">Search</a></li>
                         <li><a href="todo.html">Todo</a></li> -->
                     </ul>
@@ -44,8 +44,8 @@
                     <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">desktop_windows</i>Menu Soal<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
                     <div class="collapsible-body">
                         <ul>
-                            <li><a href="layout-blank.html">Tulis Soal</a></li>
-                            <li><a href="layout-boxed.html">List Soal</a></li>
+                            <li><a href="#">Tulis Soal</a></li>
+                            <li><a href="#">List Soal</a></li>
                         </ul>
                     </div>
                 </li>

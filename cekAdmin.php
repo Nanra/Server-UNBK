@@ -8,7 +8,7 @@ if (isset($_SESSION['user'])){
   if ($_SESSION['user'] != 'Administrator'){
     echo "Bukan Admin";
   } else {
-    echo "Anda Admin Ya";
+    //echo "Anda Admin";
   }
 }
 ?>
