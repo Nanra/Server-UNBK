@@ -44,9 +44,9 @@
             <div class="col s12 m12 l12">
                 <div class="card invoices-card">
                     <div class="card-content">
-                        <div class="card-options">
+                        <!-- <div class="card-options">
                             <input type="text" class="expand-search" placeholder="Search" autocomplete="off">
-                        </div>
+                        </div> -->
                         <span class="card-title">Monitoring Siswa Yang Sedang Ujian</span>
                         <table class="responsive-table bordered">
                             <thead>
